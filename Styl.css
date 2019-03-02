@@ -23,7 +23,7 @@ header h1{
 nav{
 	top: 0;
 	position: sticky;
-	box-shadow: 0 0px 25px 4px rgba(0,0,0,0.75), 0 3px 3px -2px #087fff96, 0 0 20px 0 #087fff96;
+	box-shadow: 0 0px 25px 4px rgba(0,0,0,0.75), 0 3px 3px -2px #7a7a7a96, 0 0 20px 0 #087fff96;
 }
 
 nav ul{
