@@ -47,8 +47,7 @@ nav ul li a{
 }
 
 #content article{
-	width: 100%;
-	float: left;
+	width: 90%;
 	clear: both;
 	padding: 2%;
 	padding-top: 0%;
