@@ -29,7 +29,9 @@ nav{
 nav ul{
 	width: 100%;
 	background-color: #2B5470;
-	padding: 0em;
+	margin: 0;
+	padding: 0;
+	
 }
 nav ul li{
 	list-style-type: none;
