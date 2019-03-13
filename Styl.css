@@ -1,4 +1,26 @@
-﻿@import url(https://fonts.googleapis.com/css?family=Roboto);
+﻿
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+/* Scrollbar styles */
+::-webkit-scrollbar {
+width: 12px;
+height: 12px;
+}
+
+::-webkit-scrollbar-track {
+box-shadow: inset 0 0 5px dimgray;
+}
+
+::-webkit-scrollbar-thumb {
+border-radius: 10px;
+background: #2B5470; 
+#box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+
+::-webkit-scrollbar-thumb:hover {
+background:  rgb(56, 113, 151);
+}
+
 body{
 	font-family: "Roboto", cursive;
 	font-size: 1.2em;
@@ -12,16 +34,19 @@ body{
 	margin: auto;
 	position: relative;
 }
-
-header h1{
+/*#logo{
+	background-color: #102E4C;
+	top:0;
 	position: sticky;
+}*/
+header h1{
 	font-size: 2em;
 	color: rgb(238, 238, 238);
 	margin: 1%;
 }
 
 nav{
-	top: 0;
+	top:0;
 	position: sticky;
 	box-shadow: 0 0px 25px 4px rgba(0,0,0,0.75), 0 3px 3px -2px #7a7a7a96, 0 0 20px 0 #087fff96;
 }
